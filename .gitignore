@@ -1,0 +1,29 @@
+# Node modules and build outputs
+node_modules/
+dist/
+
+# Environment and secrets
+.env
+.env.*
+*.log
+npm-debug.log*
+yarn-error.log*
+pids
+tmp/
+
+# Backend
+backend/node_modules/
+backend/dist/
+backend/.env
+backend/.env.*
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+
+# IDE and OS
+**/.DS_Store
+**/.idea
+**/.vscode
